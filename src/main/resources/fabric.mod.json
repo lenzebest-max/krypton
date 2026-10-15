@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "kryptonclient",
+  "version": "${version}",
+  "name": "Krypton Client",
+  "description": "An expandable Krypton-inspired Fabric client framework with configurable modules, amethyst observations and market analysis tools.",
+  "authors": ["Krypton Client contributors"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.krypton.client.KryptonClient"] },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
